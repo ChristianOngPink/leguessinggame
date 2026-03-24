@@ -11,10 +11,10 @@ function startGame() {
             return;
         }
         else if (userGuess < randNum) {
-            alert("OOF!! Too Low Bro!!" + (maxAttempts - (i+1)) + " attempts Left.");
+            alert("OOF!! Too Low Bro!! " + (maxAttempts - (i+1)) + " attempts Left.");
         }
         else {
-            alert("OOF!! Too High Guy!!" + (maxAttempts - (i+1)) + " attempts Left.");
+            alert("OOF!! Too High Guy!! " + (maxAttempts - (i+1)) + " attempts Left.");
         }
     }
     alert("You Lose! The correct number was: " + randNum);
