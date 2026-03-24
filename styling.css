@@ -1,10 +1,12 @@
+
+
 body {
     font-family: Arial, sans-serif;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(120deg, #1e1e2f, #3a0ca3, #2e80a7);
+    background: linear-gradient(0deg, #1e1e2f, #9b0ca3, #2ea789);
     padding: 20px;
 }
 
@@ -33,14 +35,14 @@ body {
 }
 
 button {
-    background: linear-gradient(115deg, rgb(3, 159, 68), #ea65fb);
+    background:  rgb(3, 159, 68);
     color: white;
     padding: 15px 32px;
     font-size: 14px;
     font-weight: bold;
-    border-radius: 999px;
+    border-radius: 800px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 button:hover {
